@@ -1,0 +1,275 @@
+@font-face{
+    font-family: 'SoDo Sans';
+    src: url(sodo-sans-8.otf);
+}
+body{
+    margin-top: 10vh;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+.header{
+    font-family: 'SoDo Sans';
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: content;
+    justify-content: center;
+    align-content:center;
+    image-resolution: 75px;
+}
+.li{
+    display: inline-block;
+    background-color: rgba(193, 193, 193);
+    color:#000;
+    border-radius: 10px;
+    justify-content:center;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+}
+.li:hover{
+    display: inline-block;
+    background-color: rgb(193, 193, 193);
+    color:#006341;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+}
+.li:active{
+    display: inline-block;
+    background-color: rgb(193, 193, 193);
+    color:#006341;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+}
+.secciónizquierda{
+    background-color:rgb(193, 193, 193);
+    padding: 20px;
+    height: 100vh;
+}
+.secciónderecha{
+    background-color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+.botoncarta{
+    background-color:#006341;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 13vw;
+    padding-left: 6vw;
+    margin-right: 14vw;
+    margin-top: 20px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'SoDo Sans';
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.botonnoticias{
+    background-color:#006341;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 13vw;
+    padding-left: 7.5vw;
+    margin-right: 14vw;
+    margin-top: 20px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'SoDo Sans';
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.titulodescripción{
+    font-family: 'SoDo Sans';
+    font-size: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fff;
+}
+.textodescripción{
+    font-family: 'SoDo Sans';
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1vw;
+}
+.textocarta{
+    font-family:'SoDo Sans';
+    text-align: center;
+    color:#6C717F;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 1vw;
+}
+.imagenblog{
+    margin-top: 30px;
+}
+.pie-pagina{
+    width: 100vw;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    
+}
+.pie-pagina .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -30px;
+}
+.logotipostarbucks{
+    margin-left: 30px;
+    margin-top: -40px;
+}
+.atencionalcliente{
+    background-color:none;
+    box-shadow: none;
+    display: flex;
+    align-content: start;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    margin-left: 10px;
+    font-family: 'SoDo Sans';
+    text-decoration: none;
+    color: #006341;
+}
+.privacidadycookies{
+    font-family: 'SoDo Sans';
+    font-size: 20px;
+    margin-right: 60px;
+    text-decoration:none;
+}
+.redessociales{
+    padding-right: 10px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+.secciónizquierdacarta{
+    width: 40vw;
+    position: fixed;
+    bottom: -1%;
+    top: 80px;
+}
+.secciónderechacarta{
+    margin-bottom: -18px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.apartadosproductos{
+    font-family: 'SoDo Sans';
+    font-size: 3vw;
+    color:#006341;
+    display: flex;
+    justify-content: center;
+}
+.imágenescarta{
+    display:flex;
+    align-items: start;
+    margin-left: 40px;
+}
+.nombrebebida{
+    font-family: 'SoDo Sans';
+    font-size: 6vh;
+    display: flex;
+    align-content: start;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.descripciónbebida{
+    font-family: 'SoDo Sans';
+    font-size: 3vh;
+    color:#6C717F;
+    display: flex;
+    align-content: start;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cafélatte{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.containernoticias{
+    display: contents;
+    align-content: center;
+}
+.noticias{
+    font-family: 'SoDo Sans';
+    font-size: 5vw;
+    color:#006341;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.apartadosnoticias{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.títulonoticia{
+    font-family: 'SoDo Sans';
+    font-size: 4vh;
+    display: flex;
+    align-content: start;
+    margin-left: 30px;
+    margin-top: -3px;
+    margin-bottom: -10px;
+}
+.imágenesnoticias{
+    display:flex;
+    align-items: start;
+    margin-left: 40px;
+}
+.descripciónnoticias{
+    font-family: 'SoDo Sans';
+    font-size: 20px;
+    color:#6C717F;
+    display: flex;
+    align-content: start;
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
